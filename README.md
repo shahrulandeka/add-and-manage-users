@@ -40,11 +40,14 @@ Next, type in "sudo usermod -g research_team researcher9" to add him to his prim
 <img src="https://i.imgur.com/mVW7jq9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-3. :  <br/>
+3. A few months later, researcher9 is now working in the Research and the Sales department:  <br/>
+ I want to add him to his secondary group. <br/>
+ Type in "sudo usermod -a -G sales_team researcher9" to add him to his secondary group.
 <img src="https://i.imgur.com/ybYOhD3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4. :  <br/>
+4. Now I want to delete him from the system:  <br/>
+ Type in "sudo groupdel researcher9" to remove him from all groups in the system. <br/>
 <img src="https://i.imgur.com/IVB3I1D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
