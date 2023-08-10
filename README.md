@@ -28,12 +28,15 @@ Launch the utility: <br/>
 <img src="https://i.imgur.com/39kWgwU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-1. :
- <br/>
+1. A new employee has joined the organization with the username "researcher9": <br/>
+Type in "sudo useradd researcher9" to add him to the system. <br/>
+Next, type in "sudo usermod -g research_team researcher9" to add him to his primary group.
 <img src="https://i.imgur.com/vRZRCxL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-2. : <br/>
+2. researcher9 will take responsibility for project_r.txt: <br/>
+ Now I must make him the owner of that file. <Br/>
+ Currently, researcher2 is the owner of that file, so type in "sudo chown researcher9 project_r.txt" to change ownership.
 <img src="https://i.imgur.com/mVW7jq9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
